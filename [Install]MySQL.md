@@ -52,6 +52,12 @@
 * 參考資料：
 > [[MySQL] 如何開啟遠端連線的權限，允許遠端裝置連線資料庫](https://note.charlestw.com/remote-connection-to-mysql/)
 
+### 在 Windows 上安裝完 HeidiSQL 的設定
+* 依照上面設定的順序後，就可以使用 HeidiSQL 連線至 Ubuntu 上的 MySQL
+
+![Image](https://github.com/Ada-Chen2531/Document/raw/main/Pictures/mysql_setting_03.jpg)
+
+
 ### 參考文章
 > [Ubuntu 20.04 LTS 安裝 MySQL Server](https://www.ltsplus.com/linux/ubuntu-20-04-lts-install-mysql-server)
 
