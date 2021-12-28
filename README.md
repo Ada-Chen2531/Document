@@ -22,5 +22,14 @@
 ### 使用 make 指令部屬 Camelot 後端
 * [camelot-backend](https://github.com/zyxel-dc/camelot-backend)
 
-### 手動練習 AWS 的部分
-* [CloudFront 設定 CDN 並且將 policy 推至 S3](https://github.com/Ada-Chen2531/Document/blob/main/%5BAWS%5DCloudFront_CDN_S3.md) 
+### 手動練習的部分
+* AWS
+> [CloudFront 設定 CDN 並且將 policy 推至 S3](https://github.com/Ada-Chen2531/Document/blob/main/%5BAWS%5DCloudFront_CDN_S3.md) 
+
+* Alembic -- 使用 Alembic 做 DB migration
+> [README.md](https://github.com/zyxel-dc/camelot-backend/tree/develop/src/persistent/migrations)
+
+> [[Alembic]DB_Migration.md]](https://github.com/Ada-Chen2531/Document/blob/main/%5BAlembic%5DDB_Migration.md) 
+
+### GitHub 發 PR 的流程
+* [Working With Github](https://github.com/zyxel-dc/camelot-backend/wiki/Working-With-Github)

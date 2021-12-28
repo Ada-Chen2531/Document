@@ -8,7 +8,7 @@
 `$ sudo mysql_secure_installation`
 
 > 在 Windows 10 會使用 HeidiSQL 去存取 Ubuntu 的 MySQL，因此要開通遠端登入    
->> `Disallow root login remotely? (Press y|Y for Yes, any other key for No) :` --> 輸入任意鍵去 skip  
+>> `Disallow root login remotely? (Press y|Y for Yes, any other key for No) :` --> 輸入任意鍵去允許遠端登入
 
 > 按照文件中的介紹去設定  
 > [MYSQL設定Root帳號密碼與初始權限(Ubuntu 20.04)](https://www.albert-yu.com/blog/mysql%E8%A8%AD%E5%AE%9Aroot%E5%B8%B3%E8%99%9F%E5%AF%86%E7%A2%BC%E8%88%87%E5%88%9D%E5%A7%8B%E6%AC%8A%E9%99%90ubuntu-20-04/)
