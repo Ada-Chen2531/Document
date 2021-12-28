@@ -29,7 +29,7 @@
 * Alembic -- 使用 Alembic 做 DB migration
 > [README.md](https://github.com/zyxel-dc/camelot-backend/tree/develop/src/persistent/migrations)
 
-> [[Alembic]DB_Migration.md]](https://github.com/Ada-Chen2531/Document/blob/main/%5BAlembic%5DDB_Migration.md) 
+> [[Alembic]DB_Migration.md](https://github.com/Ada-Chen2531/Document/blob/main/%5BAlembic%5DDB_Migration.md) 
 
 ### GitHub 發 PR 的流程
 * [Working With Github](https://github.com/zyxel-dc/camelot-backend/wiki/Working-With-Github)

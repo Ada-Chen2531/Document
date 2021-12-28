@@ -36,6 +36,7 @@ $ source {YourProjectPath}/camelot-backend/venv/bin/activate
 $ alembic -x env=dev -x region=us-east-1 revision --autogenerate -m "add account table"
 ```
 * 執行完後，可以看到 table 自動長出來
+
 ![Image](https://github.com/Ada-Chen2531/Document/raw/main/Pictures/DB_00.jpg)
 
 
@@ -60,6 +61,7 @@ $ alembic -x env=dev -x region=us-east-1 revision --autogenerate -m "add account
 > 一張資料表(Python class) 最少要有 __tablename__ 這個屬性以及至少一欄有 PK 的欄位
 
 * 格式會會類似這樣，我們使用 `Base = declarative_base()` 去宣告對映
+
 ``` py
 class tablename(Base):
     __tablename__ = tablename
@@ -69,6 +71,7 @@ class tablename(Base):
 ```
 
 * 此練習是增加了 CompanyNewCreatedTest 這個 table
+
 ![Image](https://github.com/Ada-Chen2531/Document/raw/main/Pictures/model_01.jpg)
 
 ### export 環境變數
