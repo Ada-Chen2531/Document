@@ -18,6 +18,17 @@ Alembic is the migration tool we use with SQLAlchemy. Alembic provides us with a
 $ create database camelot4ZYXEL;
 $ show databases;
 ```
+
+### 建立環境(如果做過可直接跳過)
+
+``` sh
+# 解密 .credential-us-east-1.yml
+$ ./tools/camelot-decrypt.sh dev us-east-1 zyxel-camelot-dev
+
+# install-credential & install-python-venv
+$ make build-env
+```
+
 ### export 環境變數
 
 ```
@@ -26,20 +37,6 @@ $ export PYTHONPATH={YourProjectPath}
 ```
 
 ## [練習一] 第一次進行 Migration
-
-* 透過 Makefile 建立好 virtual environment
-``` sh
-$ cd 
-# 解密 .credential-us-east-1.yml
-$ ./tools/camelot-decrypt.sh dev us-east-1 zyxel-camelot-dev
-$ source tools/camelot-env.sh
-
-# install-credential & install-python-venv
-$ make build-env
-$ export PYTHONPATH={YourProjectPath}
-
-```
-
 
 * 執行文件 Ececute migration 的部分
 > [zyxel-dc camelot-backend: migration](https://github.com/zyxel-dc/camelot-backend/tree/develop/src/persistent/migrations)
